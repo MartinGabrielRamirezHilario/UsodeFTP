@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 20px;
+  background-color: #e8e3e0;
+}
+
+#titulo{
+font-size: 15vh;
+}
+
+#banner{
+object-position: center top;
+  width: 100%;
+  height: 50vh;
+  filter: blur(20px);
+}
+
+#banner1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%;
+  object-fit: cover;
+  height: 40vh;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#logo{
+  border-radius: 50%;
+  height: 7vh;
+  width: 7vh;
+  object-fit: cover;
+  margin-right: 0.5vw;
+
+} 
+
+.nav {
+  display: flex;
+  background-color: #6e5a54;
+  overflow: hidden;
+  border-radius: 10vh;
+  height: 7vh;
+}
+.indice{
+  margin-top: 2vh;
+  width: 5vw;
+  text-align: center;
+}
+
+.nav a {
+  margin-left: 8vw;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover{
+   background-color: darkred;
+        transition: 1.3s;
+}
+
+
+.sitio>img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#a99b9c;
+}
+
+.sitio:hover .overlay {
+  opacity: 1;
+}
+
+.sitio{
+    position: relative;
+  width: fit-content;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.producto{
+  height: fit-content;
+  width: fit-content;
+  padding: 10vh;
+  margin: auto;
+}
+
+.entrada{
+  margin: 20vh 1vw;
+  padding: 10vh;
+  background-color: #7c5b4e;
+}
+
+.menu-titulo{
+  color: #291107;
+  font-size: 5vw;
+}
+
+.descripcion-imagen img{
+  height: 300px;
+}
+
+.entrada{
+  display: flex;
+}
+
+.galeria {
+  margin: 10vh;
+  object-position: center;
+}
+.galeria img{
+height: 50vh;
+  object-fit: cover;
+  margin: 10vh;
+  border-radius: 10%;
+}
+
+.promociones-entrada{
+  margin: 20vh 1vw;
+  padding: 10vh;
+  border-radius: 50px;
+  background-color: #ba2240;
+}
+ .descuento{
+  color: #7d7a2d;
+  margin-left: 7vw;
+}
+
+.promo-titulo{
+  color: #291107;
+  font-size: 5vw;
+  display: flex;
+}
